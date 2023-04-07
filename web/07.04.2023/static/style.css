@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Anuphan', sans-serif;
+    /* viewport height  */
+    height: 100vh;
+
+}
+
+.wrapper {
+    padding: 30px 150px 0px;
+
+    background-color: rgba(217, 234, 231, 0.477);
+    color: rgb(86, 79, 79);
+    height: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    padding: 0px 150px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav > li {
+    padding: 0px 10px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.nav > li:hover {
+    border-bottom: 3px solid rgb(233, 233, 35);
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: rgb(86, 79, 79);
+}
+
+.header {}  
+
+.main-wrapper {
+    margin-top: 50px; 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.foooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    height: 90px;
+
+}
